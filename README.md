@@ -1,7 +1,7 @@
 # promised-sqlite3
 A wrapper for sqlite3 node.js package to use Promise.
 
-[![NPM version](https://badge.fury.io/js/promised-sqlite3.svg)](https://www.npmjs.com/package/promised-sqlite3)
+[![NPM version](https://badge.fury.io/js/@sqlite3-libs%2Fpromised-sqlite3.svg)](https://www.npmjs.com/package/@sqlite3-libs/promised-sqlite3)
 
 ## Motivation
 <a href="https://www.npmjs.com/package/sqlite3">sqlite3</a> is a callback-based SQLite3 binding for Node.js.  
@@ -16,7 +16,7 @@ npm install promised-sqlite3
 
 ## Usage
 ```javascript
-const { PromisedDatabase } = require("promised-sqlite3"); // import the class
+const { PromisedDatabase } = require("@sqlite3-libs/promised-sqlite3"); // import the class
 
 const db = new PromisedDatabase(); // create a instance of PromisedDatabase
 // note: at this stade, the wrapped sqlite3.Database object is not created.
@@ -58,4 +58,4 @@ async function init() {
 init();
 ```
 ## Documentation
-<a href="https://baanloh.github.io/promised-sqlite3/">Docs<a>
+See in `./docs/` folder.
