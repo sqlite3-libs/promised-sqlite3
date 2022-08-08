@@ -11,7 +11,7 @@ The goal of promised-sqlite3 is to provide a wrapper arround sqlite3 to provide 
 
 ## Install
 ```
-npm install promised-sqlite3
+npm install @sqlite3-libs/promised-sqlite3
 ```
 
 ## Usage
