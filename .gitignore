@@ -108,3 +108,4 @@ dist
 
 *.bak
 *.bak.*
+.idea/

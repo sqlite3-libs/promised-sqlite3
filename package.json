@@ -1,7 +1,7 @@
 {
     "name": "@sqlite3-libs/promised-sqlite3",
     "version": "1.3.4",
-    "description": "A wrapper arround sqlite3 node.js package to use promise",
+    "description": "A wrapper around sqlite3 node.js package to use promise",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
@@ -22,7 +22,7 @@
         "promise",
         "async"
     ],
-    "author": "Tristan Guichaoua",
+    "author": "Alex <alex@milyutin.work>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/sqlite3-libs/promised-sqlite3/issues"
